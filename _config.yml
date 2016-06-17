@@ -8,6 +8,8 @@ collections:
   projects:
     title: Projects
     output: true
+    permalink: "/:path"
+    accent: "#FF0000"
   uploads:
     title: Uploads
     output: true
