@@ -1,6 +1,6 @@
 # Site settings
-baseurl: "/cutie" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://victor.moe" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -9,13 +9,13 @@ gems:
    - jekyll-redirect-from
 
 # Metadata
-keywords: "Hello world, boilerplate"
+keywords: "Victor Lourng, unicorn, web design, web development, frontend, backend, developer, nerd"
 google-fonts: "BioRhyme:400,800|Source+Sans+Pro:400,700"
 google-fonts-subsets: "latin"
 google-analytics: "UA-XXXXXXXX-1"
 
 # Commonly used lingo
-title: "Cutie"
+title: "Pixely"
 location: "Philadelphia, PA, USA"
 email: contact@example.com
 description: > # this means to ignore newlines until the next colon
