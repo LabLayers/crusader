@@ -1,8 +1,9 @@
 ---
+title: Hello World!
+date: 2016-01-08 08:00:00 Z
+categories:
+- press
 layout: post
-title:  "Hello World!"
-date:   2016-01-08 08:00:00
-categories: press
 ---
 
 **Bacon ipsum** dolor amet cow alcatra rump strip steak doner shankle. Alcatra pancetta chuck shank capicola shankle kielbasa pig. Bacon salami prosciutto bresaola chuck corned beef brisket ham ham hock landjaeger ball tip pork belly andouille. Strip steak turkey pork chop pork loin kielbasa chicken meatloaf jerky. Biltong turkey pastrami ground round pig, meatloaf flank landjaeger.

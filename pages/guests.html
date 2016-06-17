@@ -1,8 +1,9 @@
 ---
-layout: page
 title: Guests
-permalink: /guests/
+permalink: "/guests/"
+layout: page
 ---
+
 {% for guest in site.data.guests %}
   <div class="guest" id="{{ guest.name | slugify }}">
     <div class="avatar" style="background-image:url({{ site.baseurl }}/{{ guest.avatar }});"></div>
