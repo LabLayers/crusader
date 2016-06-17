@@ -10,6 +10,7 @@ collections:
     output: true
     permalink: "/:path"
     accent: "#FF0000"
+    layout: project
   uploads:
     title: Uploads
     output: true
