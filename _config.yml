@@ -13,7 +13,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-baseurl: ''
+baseurl: 
 url: http://victor.moe
 markdown: kramdown
 gems:
