@@ -2,6 +2,12 @@
 html {
   padding: 12px;
   background: linear-gradient($primary,transparent);
+  @include media-query($on-laptop) {
+    padding: 8px;
+  }
+  @include media-query($on-palm) {
+    padding: 0px;
+  }
 }
 
 // Navigation
