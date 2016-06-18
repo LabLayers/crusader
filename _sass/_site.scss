@@ -251,6 +251,20 @@ header {
   }
 }
 
+// Project navigation
+.projbox {
+  display: block;
+  padding: 4.25em 1em 0;
+  border-radius: 0px;
+  color: white;
+  h1 {
+    font-size: 4.25em;
+  }
+  &:hover {
+    color: white;
+  }
+}
+
 // Pricing Tables
 .reg {
   .reg-column {

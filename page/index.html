@@ -9,8 +9,8 @@ accent: "#545BCB"
   <div class="cover"></div>
   <container>
         <h1 class="title no-margin-bottom">Welcome!</h1>
-        <p class="lead">Some catchy tagline goes here.</p>
-        <a href="#info" class="button button-large">Learn more <icon class="icon-right"></icon></a>
+        <p class="lead"><b>I’m a unicorn &amp; I build cool<br>things for the interwebs.</b><br><i>That is all.</i></p>
+        <a href="#info" class="button"><icon class="icon-location"></icon> Philadelphia</a>
   </container>
 </header>
 
@@ -18,17 +18,11 @@ accent: "#545BCB"
 
   <container>
     <h1>Projects</h1>
-    <ul class="post-list">
-      {% for project in site.projects limit:4 %}
-        <li>
-          <span class="post-meta">{{ project.date | date: "%b %-d, %Y" }}</span>
-
-          <h3>
-            <a class="post-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
-          </h3>
-        </li>
-      {% endfor %}
-    </ul>
+    {% for project in site.projects limit:4 %}
+      <a class="projbox projbox-full" href="{{ project.url | prepend: site.baseurl }}" style="background-color: {{ project.accent }}">
+        <h1>{{ project.title }}</h1>
+      </a>
+    {% endfor %}
     <a href="{{ site.baseurl }}/blog" class="button">More Projects <icon class="icon-right"></icon></a>
 
   </container>
