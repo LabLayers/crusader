@@ -1,0 +1,37 @@
+---
+layout: blank
+home: true
+permalink: /index
+accent: "#545BCB"
+---
+
+<header id="home-intro">
+
+  <container>
+        <h1 class="no-margin-bottom">Welcome!</h1>
+        <p class="lead">Some catchy tagline goes here.</p>
+        <a href="#info" class="button button-large">Learn more <icon class="icon-right"></icon></a>
+  </container>
+
+</header>
+
+<section id="home-projects">
+
+  <container>
+    <h1>Projects</h1>
+    <ul class="post-list">
+      {% for project in site.projects limit:4 %}
+        <li>
+          <span class="post-meta">{{ project.date | date: "%b %-d, %Y" }}</span>
+
+          <h3>
+            <a class="post-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+          </h3>
+        </li>
+      {% endfor %}
+    </ul>
+    <a href="{{ site.baseurl }}/blog" class="button">More Projects <icon class="icon-right"></icon></a>
+
+  </container>
+
+</section>

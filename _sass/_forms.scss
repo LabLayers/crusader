@@ -1,6 +1,6 @@
 // Buttons
 .button {
-  background: $secondary;
+  background: $primary;
   color: white!important;
   display: inline-block;
   font-family: $base-font-family;
@@ -21,7 +21,7 @@
     }
   }
   &:hover, &:focus, &:active {
-    background: darken($secondary, 10%);
+    // background: darken($secondary, 10%);
     text-decoration: none;
   }
   &:active {
