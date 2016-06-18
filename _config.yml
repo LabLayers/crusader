@@ -22,7 +22,7 @@ gems:
 - jekyll-redirect-from
 keywords: Victor Lourng, unicorn, web design, web development, frontend, backend,
   developer, nerd
-google-fonts: BioRhyme:400,800|Source+Sans+Pro:400,700
+google-fonts: Passion+One:400|Source+Sans+Pro:400,700|Fira+Mono:400,700
 google-fonts-subsets: latin
 google-analytics: UA-XXXXXXXX-1
 location: Philadelphia, PA, USA
